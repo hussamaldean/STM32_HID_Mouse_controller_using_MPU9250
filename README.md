@@ -1,1 +1,1 @@
-# STM32_HID_Mouse_controlled_using_MPU
+# STM32 HID Mouse controlled using MPU9250
