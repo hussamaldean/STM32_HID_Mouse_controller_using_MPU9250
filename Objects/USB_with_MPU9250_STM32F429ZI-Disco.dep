@@ -1,0 +1,145 @@
+Dependencies for Project 'USB_with_MPU9250', Target 'STM32F429ZI-Disco': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\main.c)(0x60F2DC59)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_STM32F429ZI-Disco-IC:/Users/hussam/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hussam/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F429xx -D_RTE_-o ./objects/main.o -MD)
+I (usbd_framework.h)(0x60E13C27)
+I (usbd_driver.h)(0x60EFD68E)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035EAF8)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE17BA2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035EAF4)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B1826)
+I (usb_standards.h)(0x60F18936)
+I (helperv2.h)(0x60EFF58B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6035EAF8)
+I (usb_device.h)(0x60EFEB20)
+I (MPU9250.h)(0x60F2DAE4)
+I (i2c.h)(0x60F28B89)
+F (.\helperv2.c)(0x60EFF87C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_STM32F429ZI-Disco-IC:/Users/hussam/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hussam/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F429xx -D_RTE_-o ./objects/helperv2.o -MD)
+I (helperv2.h)(0x60EFF58B)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035EAF8)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE17BA2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035EAF4)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B1826)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6035EAF8)
+F (.\helperv2.h)(0x60EFF58B)()
+F (.\usbd_driver.h)(0x60EFD68E)()
+F (.\usbd_framework.h)(0x60E13C27)()
+F (.\usbd_driver.c)(0x60F3CFA4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_STM32F429ZI-Disco-IC:/Users/hussam/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hussam/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F429xx -D_RTE_-o ./objects/usbd_driver.o -MD)
+I (usbd_driver.h)(0x60EFD68E)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035EAF8)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE17BA2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035EAF4)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B1826)
+I (usb_standards.h)(0x60F18936)
+I (helperv2.h)(0x60EFF58B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6035EAF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035EAF8)
+F (.\usbd_framework.c)(0x60F3D69C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_STM32F429ZI-Disco-IC:/Users/hussam/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hussam/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F429xx -D_RTE_-o ./objects/usbd_framework.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6035EAF8)
+I (usbd_framework.h)(0x60E13C27)
+I (usbd_driver.h)(0x60EFD68E)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035EAF8)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE17BA2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035EAF4)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B1826)
+I (usb_standards.h)(0x60F18936)
+I (helperv2.h)(0x60EFF58B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6035EAF8)
+I (usb_device.h)(0x60EFEB20)
+I (usbd_descriptors.h)(0x60F18936)
+I (usb_hid_standard.h)(0x60EFEEEF)
+I (usb_hid.h)(0x60EFEEEF)
+I (usb_hid_usage_button.h)(0x5FC5719D)
+I (usb_hid_usage_desktop.h)(0x5FC5719D)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6035EAF8)
+I (MPU9250.h)(0x60F2DAE4)
+I (i2c.h)(0x60F28B89)
+F (.\usb_standards.h)(0x60F18936)()
+F (.\usb_device.h)(0x60EFEB20)()
+F (.\usbd_descriptors.h)(0x60F18936)()
+F (.\usb_hid_standard.h)(0x60EFEEEF)()
+F (.\usb_hid.h)(0x60EFEEEF)()
+F (.\usb_hid_usage_button.h)(0x5FC5719D)()
+F (.\usb_hid_usage_desktop.h)(0x5FC5719D)()
+F (.\MPU9250.c)(0x60F2DAE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_STM32F429ZI-Disco-IC:/Users/hussam/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hussam/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F429xx -D_RTE_-o ./objects/mpu9250.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x6035EAF8)
+I (MPU9250.h)(0x60F2DAE4)
+I (i2c.h)(0x60F28B89)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035EAF8)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE17BA2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035EAF4)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B1826)
+F (.\MPU9250.h)(0x60F2DAE4)()
+F (.\i2c.h)(0x60F28B89)()
+F (.\i2c.c)(0x60F2D73E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_STM32F429ZI-Disco-IC:/Users/hussam/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hussam/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F429xx -D_RTE_-o ./objects/i2c.o -MD)
+I (i2c.h)(0x60F28B89)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035EAF8)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE17BA2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035EAF4)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B1826)
+F (.\blinking.c)(0x60F2DAE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_STM32F429ZI-Disco-IC:/Users/hussam/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hussam/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F429xx -D_RTE_-o ./objects/blinking.o -MD)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035EAF8)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE17BA2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035EAF4)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B1826)
+F (RTE\Device\STM32F429ZITx\startup_stm32f429xx.s)(0x5F6B1826)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3-I./RTE/_STM32F429ZI-Disco-IC:/Users/hussam/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hussam/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 534" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F429xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f429xx.o)
+F (RTE\Device\STM32F429ZITx\system_stm32f4xx.c)(0x60DAB23E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_STM32F429ZI-Disco-IC:/Users/hussam/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hussam/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F429xx -D_RTE_-o ./objects/system_stm32f4xx.o -MD)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x5F6B1826)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035EAF8)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E834D12)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F1772)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE17BA2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6035EAF4)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F1772)
+I (C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B1826)

@@ -1,0 +1,6 @@
+--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections
+-I.\RTE\_STM32F429ZI-Disco
+-IC:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+-IC:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F429xx -D_RTE_
+-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d --feedback ".\Objects\USB_course.fed" "main.c"

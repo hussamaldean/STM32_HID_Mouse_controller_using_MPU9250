@@ -1,0 +1,24 @@
+;#<FEEDBACK># ARM Linker, 5060960: Last Updated: Thu Jul 15 08:19:37 2021
+;VERSION 0.2
+;FILE helperv2.o
+__asm___10_helperv2_c_fputc____REV16 <= USED 0
+__asm___10_helperv2_c_fputc____REVSH <= USED 0
+__asm___10_helperv2_c_fputc____RRX <= USED 0
+log_error <= USED 0
+;FILE main.o
+__asm___6_main_c_main____REV16 <= USED 0
+__asm___6_main_c_main____REVSH <= USED 0
+__asm___6_main_c_main____RRX <= USED 0
+;FILE startup_stm32f429xx.o
+;FILE system_stm32f4xx.o
+__asm___18_system_stm32f4xx_c_5d646a67____REV16 <= USED 0
+__asm___18_system_stm32f4xx_c_5d646a67____REVSH <= USED 0
+__asm___18_system_stm32f4xx_c_5d646a67____RRX <= USED 0
+;FILE usbd_driver.o
+__asm___13_usbd_driver_c_dd333a58____REV16 <= USED 0
+__asm___13_usbd_driver_c_dd333a58____REVSH <= USED 0
+__asm___13_usbd_driver_c_dd333a58____RRX <= USED 0
+;FILE usbd_framework.o
+__asm___16_usbd_framework_c_84a135c4____REV16 <= USED 0
+__asm___16_usbd_framework_c_84a135c4____REVSH <= USED 0
+__asm___16_usbd_framework_c_84a135c4____RRX <= USED 0
